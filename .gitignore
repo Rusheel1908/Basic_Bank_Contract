@@ -1,0 +1,18 @@
+# Compiler files
+cache/
+out/
+
+# Broadcast logs
+broadcast/
+
+# Environment variables
+.env
+
+# Coverage reports
+coverage/
+
+# VS Code settings (optional)
+.vscode/
+
+# macOS files
+.DS_Store
