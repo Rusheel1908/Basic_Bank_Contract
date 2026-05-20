@@ -5,10 +5,11 @@ import {Script} from "forge-std/Script.sol";
 import {Bank} from "../src/Bank.sol";
 
 contract BankScript is Script {
-   Bank bank;
-   function run () public {
-    vm.startBroadcast();
-    bank = new Bank();
-    vm.stopBroadcast();
-   }
+    Bank bank;
+
+    function run() public {
+        vm.startBroadcast();
+        bank = new Bank();
+        vm.stopBroadcast();
+    }
 }
